@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Img/Menu.jpg" class="menu-icono" alt="Ícono de menú">
+                <div class="menu-icon" id="menu-icon">
+                  
+                  </div>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="carrito.html">Productos</a></li>
+                    <li><a href="login.html">Registro/Login</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="formulario">
+            <h1>Iniciar Sesión</h1>
+            <form method="post">
+                <div class="username">
+                    <input type="text" required>
+                    <i class='bx bxs-user'></i>
+                    <label>Nombre de usuario</label>
+                </div>
+                <div class="contraseña">
+                    <input type="password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar">¿Olvidó su contraseña?</div>
+                <input type="submit" value="Iniciar Sesión">
+                <div class="registrarse">
+                    ¿No tienes una cuenta? <a href="registro.html">Regístrate</a>
+                </div>
+                <div class="social-login">
+                    <button class="google-btn"><i class='bx bxl-google'></i> Iniciar sesión con Google</button>
+                    <button class="facebook-btn"><i class='bx bxl-facebook'></i> Iniciar sesión con Facebook</button>
+                    <button class="microsoft-btn"><i class='bx bxl-microsoft'></i> Iniciar sesión con Microsoft</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
